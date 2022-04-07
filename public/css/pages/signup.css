@@ -1,0 +1,11 @@
+small {
+  display: none;
+  text-align: left;
+  align-self: center;
+  width: 80%;
+  color: red;
+}
+
+.inputContainer:last-child {
+  margin-bottom: 20px;
+}

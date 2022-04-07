@@ -1,0 +1,81 @@
+#mainContent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#form input, #form button {
+  display: block;
+  align-self: center;
+}
+
+#form input {
+  width: 80%;
+  margin-bottom: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+#form button {
+  width: 80%;
+}
+
+section.recommendation {
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+
+section.recommendation h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section.recommendation figure:first-of-type {
+  margin-top: 0px;
+}
+
+main#videoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main#videoList h2 {
+  align-self: flex-start;
+}
+
+main#videoList a {
+  width: 50%;
+  text-decoration: none;
+  color: black;
+}
+
+main#videoList a figure {
+  width: 100%;
+}
+
+figure:hover {
+  cursor: pointer;
+}
+
+figure figcaption {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main#videoNone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;;
+}
+
+main#videoNone img {
+  width: 20%;
+}

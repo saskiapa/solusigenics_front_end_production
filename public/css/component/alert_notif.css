@@ -1,0 +1,42 @@
+@keyframes append-alert-animate {
+  from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+@keyframes hide-alert-animate {
+  from {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+	to {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+}
+
+#alert-notif-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  overflow: hidden;
+}
+
+.alert-notif {
+  background-color: rgb(212, 237, 218);
+  padding: 5px 15px;
+  border-radius: 10px;
+  z-index: 1000;
+  animation: append-alert-animate .3s linear;
+  margin-bottom: 10px;
+}
+
+.alert-notif-hide {
+  animation: hide-alert-animate .3s linear !important;
+  opacity: 0;
+}

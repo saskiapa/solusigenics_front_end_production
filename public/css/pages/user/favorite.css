@@ -1,0 +1,47 @@
+#mainContent {
+  padding: 0px 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+img.thumbnail {
+  height: 168px;
+  width: 300px;
+}
+
+.right-side-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-side-2 img.trash-icon {
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.right-side-2 img.trash-icon:hover {
+  cursor: pointer;
+}
+
+.video p {
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,8 @@
+#alert-container {
+  display: none; /* Pada saat ditampilkan, nilainya flex */
+  justify-content: center;
+}
+
+#alert-container-message {
+  font-size: 1.5rem;
+}

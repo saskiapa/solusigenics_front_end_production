@@ -1,0 +1,17 @@
+#alert {
+  display: none;
+  padding: 4px 0px;
+  margin-bottom: 5px;
+  width: 70%;
+  background-color: #f7d7da;
+  border-radius: 4px;
+}
+
+#alert p {
+  margin: 0px;
+}
+
+.centeringAlert {
+  display: flex;
+  justify-content: center;
+}

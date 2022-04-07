@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Billabong;
+  src: url(/fonts/Billabong.ttf) format('truetype');
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Assistant, sans-serif, 'Times New Roman', Times, serif;
+}
+
+.billabong-font-family {
+  font-family: 'Billabong';
+}
