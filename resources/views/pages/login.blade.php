@@ -24,7 +24,6 @@
     <div class="inputContainer">
       <input type="submit" value="Login">
     </div>
-    <p>Forgot Password? <a href="#">Reset Password</a></p>
   </form>
   <section class="card">
     <p>Belum punya akun? <a href="/signup">Sign Up</a></p>
