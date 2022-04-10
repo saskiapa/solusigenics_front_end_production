@@ -41,8 +41,8 @@
       <figure>
         <img src="/images/rectangle_placeholder.png" alt="Trulli" style="width:100%">
         <figcaption>Contoh Judul Video Tentang Penyakit | YouTube | Vimeo | Cara Pencegahan penyakit DBD MALARIA</figcaption>
-        <p class="source" style="display: block"></p>
-        <p class="video_id" style="display: block"></p>
+        {{-- <p class="source" style="display: block"></p> --}}
+        {{-- <p class="video_id" style="display: block"></p> --}}
       </figure>
     </a>
   </template>

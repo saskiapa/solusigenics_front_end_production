@@ -52,14 +52,14 @@ async function getVideoByDisease(disease) {
         const a = clone.querySelector(".anchor");
         const img = clone.querySelector("img");
         const figcaption = clone.querySelector("figcaption");
-        const source = clone.querySelector(".source");
-        const video_id = clone.querySelector(".video_id");
+        // const source = clone.querySelector(".source");
+        // const video_id = clone.querySelector(".video_id");
 
         a.href = `/tonton/${v_id}?source=${v_source}&title=${title}&disease=${disease}`;
         img.setAttribute("src", thumbnail);
         figcaption.innerHTML = title;
-        source.innerHTML = v_source;
-        video_id.innerHTML = v_id;
+        // source.innerHTML = v_source;
+        // video_id.innerHTML = v_id;
         videoList.append(clone);
       });
   }
@@ -116,14 +116,14 @@ const displayRecommendationVideo = async () => {
           const a = clone.querySelector(".anchor");
           const img = clone.querySelector("img");
           const figcaption = clone.querySelector("figcaption");
-          const source = clone.querySelector(".source");
-          const video_id = clone.querySelector(".video_id");
+          // const source = clone.querySelector(".source");
+          // const video_id = clone.querySelector(".video_id");
   
           a.href = `/tonton/${v_id}?source=${v_source}&title=${title}&disease=${disease}`;
           img.setAttribute("src", thumbnail);
           figcaption.innerHTML = title;
-          source.innerHTML = v_source;
-          video_id.innerHTML = v_id;
+          // source.innerHTML = v_source;
+          // video_id.innerHTML = v_id;
           videoList.append(clone);
         });
       }
