@@ -39,7 +39,7 @@ const getFavorite = async () => {
   let videos = JSON.parse(data);
 
   if (videos.length == 0) {  // jika tidak ada favorit
-    displayalertContainer("Anda belum mepunyai video favorit");
+    displayalertContainer("Anda belum mempunyai video favorit");
   }
   else {
     const bodyData = [];

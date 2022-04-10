@@ -177,8 +177,8 @@ form.addEventListener("submit", async (event) => {
       a.href = `/tonton/${v_id}?source=${v_source}&title=${title}&disease=${disease}`;
       img.setAttribute("src", thumbnail);
       figcaption.innerHTML = title;
-      source.innerHTML = v_source;
-      video_id.innerHTML = v_id;
+      // source.innerHTML = v_source;
+      // video_id.innerHTML = v_id;
       videoList.append(clone);
     });
   }
